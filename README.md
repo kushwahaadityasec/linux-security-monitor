@@ -1,0 +1,54 @@
+# Linux Security Monitoring & Log Analyzer
+
+A Linux-based security monitoring and log analysis system developed using Python and Bash.
+
+## 📌 Project Overview
+
+This project monitors a Linux system and analyzes system information, authentication events, logged-in users, network configuration, disk usage, and file permissions.
+
+It also generates security alerts when suspicious authentication activity is detected.
+
+## 🎯 Objectives
+
+- Monitor Linux system information
+- Analyze authentication logs
+- Detect failed authentication attempts
+- Monitor currently logged-in users
+- Check network information
+- Monitor disk usage
+- Check file permissions
+- Generate security alerts
+- Generate security reports
+- Automate monitoring using Cron
+
+## 🛠️ Technologies Used
+
+- Linux
+- Python 3
+- Bash Shell
+- systemd / journalctl
+- Git & GitHub
+- Cron
+
+## 📂 Project Structure
+
+```text
+linux-security-monitor/
+│
+├── modules/
+│   ├── __init__.py
+│   ├── auth_monitor.py
+│   ├── system_monitor.py
+│   ├── user_monitor.py
+│   ├── network_monitor.py
+│   ├── disk_monitor.py
+│   ├── permission_monitor.py
+│   └── log_analyzer.py
+│
+├── reports/
+├── logs/
+├── config.py
+├── main.py
+├── monitor.sh
+├── requirements.txt
+└── .gitignore
