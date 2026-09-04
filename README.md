@@ -1,4 +1,4 @@
-README.md# Linux Security Monitoring & Log Analyzer
+# Linux Security Monitoring & Log Analyzer
 
 A Linux-based security monitoring and log analysis system developed using Python and Bash.
 
