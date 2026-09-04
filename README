@@ -52,3 +52,9 @@ linux-security-monitor/
 ├── monitor.sh
 ├── requirements.txt
 └── .gitignore
+
+
+## 📸 Project Output
+
+The Linux Security Monitor successfully collects system information, authentication events, network information, disk usage, and file permissions.
+
